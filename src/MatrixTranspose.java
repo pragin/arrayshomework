@@ -26,7 +26,7 @@ public class MatrixTranspose {
             i++;
         }
     }
-// Method to transpose the array
+// Method to transpose the matrix
     private static int[][] transpose(int[][] matrix){
         int row = matrix[0].length;
         int column = matrix.length;
