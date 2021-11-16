@@ -4,7 +4,7 @@ public class SumValues {
     public static void main(String[] args) {
 
         int arr[] = new int[10];
-        //Generate 10 randm numbers using random() and store them in int array
+        //Generate 10 random numbers using random() and store them in int array
         for(int i = 0; i < 10; i++){
              arr[i] = (int)(Math.random() * 100 + 1);
         }
